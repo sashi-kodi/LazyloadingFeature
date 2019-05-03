@@ -1,0 +1,5 @@
+<h4>Countries List :</h4>
+<p *ngFor="let country of countries$ | async">
+   {{country.countryId}}. {{country.countryName}} 
+	- {{country.capital}} - {{country.currency}}
+</p>
